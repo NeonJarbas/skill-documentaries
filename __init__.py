@@ -13,7 +13,7 @@ from reddit_movies import RedditDocumentaries
 class DocumentariesSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
         self.supported_media = [MediaType.DOCUMENTARY]
-        self.skill_icon = join(dirname(__file__), "ui",
+        self.skill_icon = join(dirname(__file__), "res",
                                "documentaries_icon.png")
         super().__init__(*args, **kwargs)
 
